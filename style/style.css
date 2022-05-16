@@ -30,7 +30,7 @@ ul {
 .main {
     position: relative;
     background-image: url(../img/main_photo.png);
-    background-repeat: repeat-x;
+    background-position: center;
     height: 100vh;
 }
 
@@ -99,6 +99,7 @@ ul {
     font-weight: 500;
     font-size: 25px;
     transition: 0.4s;
+    border-bottom: 2px solid transparent;
 }
 
 .burger_menu button {
@@ -171,7 +172,6 @@ ul {
 .about {
     position: relative;
     background-image: url(../img/about_photo.png);
-    background-repeat: repeat-x;
     height: 100vh;
 }
 
@@ -258,6 +258,13 @@ ul {
     font-size: 16px;
     color: white;
     cursor: pointer;
+    transition: 0.4s;
+}
+
+.offer_block button:hover {
+    background-color: white;
+    border: 1px solid white;
+    color: #17181C;
 }
 
 .cards_right_noborder {
@@ -275,6 +282,7 @@ ul {
     position: relative;
     height: 100vh;
     background-image: url(../img/advantages_photo.png);
+    background-position: center;
 }
 
 .advantages_body {
@@ -306,6 +314,7 @@ ul {
 .advantages_list p {
     margin-left: 20px;
     line-height: 20px;
+    font-weight: 500;
 }
 
 
@@ -314,7 +323,6 @@ ul {
 .proposal {
     position: relative;
     background-image: url(../img/application_photo.jpg);
-    background-repeat: repeat-x;
     height: 100vh;
 }
 
@@ -348,11 +356,13 @@ ul {
     margin-top: 100px;
     color: white;
     outline: none;
+    font-size: 20px;
 }
 
 .proposal_input input::placeholder {
     color: white;
     padding-top: 20px;
+    font-size: 20px;
 }
 
 .proposal_input button {
@@ -365,6 +375,13 @@ ul {
     font-size: 16px;
     cursor: pointer;
     margin-top: 120px;
+    transition: 0.4s;
+}
+
+.proposal_input button:hover {
+    background-color: white;
+    border: 1px solid white;
+    color: #17181C;
 }
 
 .proposal_body h1 {
